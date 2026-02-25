@@ -15,8 +15,13 @@ export default function ProjectCard({ project, index }: { project: Project; inde
     >
       <div>
         <div className="flex items-center justify-between mb-4">
-          <div className="rounded-full bg-cyan-500/10 p-2 text-cyan-500">
-            <Folder size={20} />
+          <div className="flex items-center gap-2">
+            <div className="rounded-full bg-cyan-500/10 p-2 text-cyan-500">
+              <Folder size={20} />
+            </div>
+            <span className="text-xs font-medium text-cyan-400 bg-cyan-500/10 px-2 py-1 rounded-full">
+              {project.category}
+            </span>
           </div>
           {project.link && (
             <a
@@ -29,11 +34,11 @@ export default function ProjectCard({ project, index }: { project: Project; inde
             </a>
           )}
         </div>
-        
+
         <h3 className="text-xl font-bold text-neutral-100 mb-2 group-hover:text-cyan-400 transition-colors">
           {project.title}
         </h3>
-        
+
         <p className="text-neutral-400 text-sm leading-relaxed mb-6">
           {project.description}
         </p>
@@ -43,7 +48,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
         {project.tags.map((tag) => (
           <span
             key={tag}
-            className="rounded-full bg-neutral-800 px-3 py-1 text-xs font-medium text-neutral-300 border border-neutral-700/50"
+            className="rounded-full bg-neutral-800 px-3 py-1 text-xs font-medium text-neutral-300 border border-neutral-700/50 hover:border-cyan-500/50 hover:text-cyan-400 transition-colors cursor-default"
           >
             {tag}
           </span>

@@ -309,9 +309,9 @@ export const socialLinks = {
 
 export const bio = {
   name: "Kapil Thakare",
-  title: "Software Engineer & Entrepreneur",
+  title: "Head of Sales & Marketing",
   tagline: "Building intelligent systems that bridge AI, automation, and business.",
-  about: "I specialize in building robust automation tools, AI agents, MCP servers, and full-stack applications. As the head of Primes & Zooms (Photography & Cinematography Gear Rental), I leverage technology to streamline complex business operations—from inventory management to customer engagement. My work spans WhatsApp AI bots, LiveKit real-time agents, display calibration tools, and enterprise automation systems."
+  about: "I specialize in building robust automation tools, AI agents, MCP servers, and full-stack applications. As Head of Sales & Marketing at Primes & Zooms (Photography & Cinematography Gear Rental), I leverage technology to streamline complex business operations—from inventory management to customer engagement. My work spans WhatsApp AI bots, LiveKit real-time agents, display calibration tools, and enterprise automation systems."
 };
 
 export const skills = [
@@ -351,16 +351,29 @@ export const skills = [
 
 export const experience = [
   {
-    role: "Head of Technology",
+    role: "Head of Sales & Marketing",
     company: "Primes & Zooms",
-    period: "2020 - Present",
+    period: "January 2017 - Present",
     location: "Pune & Mumbai, India",
-    description: "Leading technology strategy for photography and cinematography gear rental business. Built comprehensive automation systems for inquiry processing, order management, inventory tracking, and customer communication.",
+    description: "Leading sales and marketing initiatives for photography and cinematography gear rental business. Built comprehensive automation systems for inquiry processing, order management, inventory tracking, and customer communication.",
     achievements: [
       "Developed AI-powered inquiry automation reducing response time by 80%",
       "Built WhatsApp AI bot handling 1000+ customer conversations monthly",
       "Created Magento automation for seamless order processing and inventory sync",
       "Implemented display calibration tools for professional color accuracy"
+    ]
+  },
+  {
+    role: "Department Management - Multiple Roles",
+    company: "Primes & Zooms",
+    period: "2017 - 2024",
+    location: "Pune & Mumbai, India",
+    description: "Successfully managed multiple departments during second innings at Primes & Zooms since January 2017. Led front office operations, booking department, and registration department with focus on process optimization and customer satisfaction.",
+    achievements: [
+      "Managed front office operations ensuring smooth customer interactions",
+      "Led booking department with efficient gear reservation workflows",
+      "Oversaw registration department streamlining customer onboarding",
+      "Currently leading helicopter sales and marketing initiatives"
     ]
   },
   {
